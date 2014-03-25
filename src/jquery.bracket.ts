@@ -786,7 +786,7 @@ interface Options {
             score = team.score
           }
         }
-        sEl.append(score)
+        sEl.append(String(score))
 
         resultIdentifier += 1
 
